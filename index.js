@@ -14,7 +14,7 @@ const REDIS_URL = isDevelopment ?
 'redis://127.0.0.1:6379':
 'redis://h:pea8ef042eb6409dff28d94265b7ba0651139d1f65e0962ac10d0b5906822bc53@ec2-54-209-91-65.compute-1.amazonaws.com:11219'
 const DEFUALT_PORT = 3000;
-const ROOT_NODE_ADDRESS = ifDevelopment ?
+const ROOT_NODE_ADDRESS = isDevelopment ?
 `http://localhost:${DEFUALT_PORT}`:
 'https://gentle-journey-67534.herokuapp.com'; 
 
